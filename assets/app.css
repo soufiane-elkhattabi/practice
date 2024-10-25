@@ -1,0 +1,194 @@
+html {
+    margin: 0px;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#button-play-audio {
+    cursor: pointer;
+}
+.button-play-audio-wrapper {
+    clear: both;
+    font-size: 22px;
+    margin-left: 10px;
+}
+#button-record-audio {
+    margin-bottom: 5px;
+}
+#button-start-conversation {
+    background-color: #0061F3;
+    color: white;
+}
+#button-start-conversation:hover {
+    background-color: #003d9b;
+}
+.container {
+    margin: 0px;
+    min-width: 100%;
+    padding: 0px;
+}
+#content {
+    margin: auto;
+    max-width: 600px;
+    min-height: 470px;
+    padding: 0px 20px 10px;
+}
+#conversation {
+    display: block;
+    min-height: fit-content;
+    min-width: 100%;
+}
+#conversation-id {
+    height: 10px;
+    min-width: 100%;
+}
+.conversation-setting-custom-input {
+    padding: 10px 0px;
+}
+#conversation-setting-custom::placeholder {
+    color: #aaa;
+}
+.conversation-setting-menu {
+    padding: 10px 0px 0px;
+}
+.conversation-setting-wrapper {
+    min-width: 100%;
+}
+#header {
+    background-color: #003d9b;
+    color: white;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+    text-align: center;
+}
+#help-highlight-for-translation {
+    color: #aaa;
+    font-size: 13px;
+    font-style: italic;
+    margin: 10px 0px -15px;
+    width: fit-content;
+}
+#intro {
+    color: #333;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0px 20px 20px;
+    text-align: center;
+}
+.languages {
+    display: flex;
+    min-width: 100%;
+}
+#language-menu-known {
+    min-width: 50%;
+    padding-right: 10px;
+}
+#language-menu-learn {
+    min-width: 50%;
+    padding-left: 10px;
+}
+#loading {
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.loading-icon {
+    margin: 10px;
+}
+.message-ai-wrapper {
+    align-items: center;
+    display: flex;
+    margin: 15px 0px;
+    width: 100%;
+}
+.message-ai {
+    border: 1px solid #87b7ff;
+    border-radius: 0px 4px 4px 4px;
+    clear: both;
+    color: black;
+    float: left;
+    max-width: 75%;
+    padding: 5px 10px;
+    text-decoration: underline;
+    text-decoration-color: #87b7ff;
+    text-decoration-style: dotted;
+    width: fit-content;
+}
+.message-user {
+    background-color: #87b7ff;
+    border-radius: 4px 0px 4px 4px;
+    clear: both;
+    padding: 5px 10px;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    text-decoration-style: dotted;
+    width: fit-content;
+}
+.message-user-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0px;
+    width: 100%;
+}
+#audio-settings-text {
+    color: #aaa;
+    font-size: 14px;
+    font-style: italic;
+    margin-right: 10px;
+    padding-top: 2px;
+}
+#audio-settings {
+    display: flex;
+}
+#toggle-play-audio-div {
+    display: flex;
+    margin: 0px 120px 10px 0px;
+}
+#slider-audio-speed-div {
+    display: flex;
+    margin: 0px 0px 10px;
+}
+#audio-speed {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 50px;
+}
+#translation {
+    clear: both;
+    display: block;
+    font-style: italic;
+    width: 100%;
+}
+#title {
+    margin: 0px;
+}
+#user-response {
+    display: flex;
+    margin: 0px 0px 30px;
+    width: 100%;
+}
+#user-response-buttons {
+    width: 42px;
+}
+#user-response-text {
+    height: 80px;
+    margin-right: 10px;
+}
+#user-response-text.form-control {
+    border: 1px solid rgba(7, 76, 179, 0.9);
+}
+#user-response-text::placeholder {
+    color: #aaa;
+}
+
+@media screen and (max-width: 600px) {
+    #audio-settings {
+        display: block;
+    }
+    #intro {
+        font-size: 18px;
+    }
+    #toggle-play-audio-div {
+        margin: 0px;
+    }
+}
